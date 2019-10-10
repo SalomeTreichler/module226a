@@ -8,7 +8,7 @@ public class Controller {
     public Controller() {
     }
 
-    private boolean checkCommand(String command, int lowestPossiblevalue, int highestPossibleValue) {
+    protected boolean checkCommand(String command, int lowestPossiblevalue, int highestPossibleValue) {
         try {
             int intMode = Integer.parseInt(command);
             if (intMode >= lowestPossiblevalue && intMode <= highestPossibleValue) {

@@ -19,15 +19,15 @@ public class Calculator {
         return 0;
     }
 
-    private int add(int number1, int number2){
+    protected int add(int number1, int number2){
         return number1 + number2;
     }
 
-    private int subtract(int number1, int number2){
+    protected int subtract(int number1, int number2){
         return number1 - number2;
     }
 
-    private int divide(int number1, int number2) throws DivisionNotPossibleException{
+    protected int divide(int number1, int number2) throws DivisionNotPossibleException{
         if(number2 !=0 && number1>number2 && number1%number2 == 0){
             return number1 / number2;
         }else{
@@ -35,7 +35,7 @@ public class Calculator {
         }
     }
 
-    private int multiply(int number1, int number2){
+    protected int multiply(int number1, int number2){
         return number1 * number2;
     }
 }
