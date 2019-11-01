@@ -12,7 +12,7 @@ public class ControllerTest extends Controller{
         int lowestPossibleValue = 1;
         int highestPossibleValue = 3;
 
-        assertTrue(checkCommand(command, lowestPossibleValue, highestPossibleValue));
+        assertTrue(checkValue(command, lowestPossibleValue, highestPossibleValue));
     }
 
 }

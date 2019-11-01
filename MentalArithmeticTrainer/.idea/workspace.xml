@@ -2,12 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16877a22-a53b-4ead-95eb-54bdb2447c60" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch/noseryoung/CalculatorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch/noseryoung/ControllerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ch/noseryoung/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch/noseryoung/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch/noseryoung/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch/noseryoung/CalculatorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ch/noseryoung/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch/noseryoung/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch/noseryoung/ControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch/noseryoung/ControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch/noseryoung/DivisionNotPossibleException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch/noseryoung/UnallowedDivisionException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch/noseryoung/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch/noseryoung/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch/noseryoung/NoSuchValueException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch/noseryoung/NoSuchAttributeException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch/noseryoung/StopWatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch/noseryoung/StopWatch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch/noseryoung/Trainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch/noseryoung/Trainer.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,101 +24,90 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/ch/noseryoung/Main.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1012">
-                  <caret line="44" column="30" lean-forward="true" selection-start-line="44" selection-start-column="30" selection-end-line="44" selection-end-column="30" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/ch/noseryoung/Trainer.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="198">
-                  <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/ch/noseryoung/CalculatorTest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="214">
-                  <caret line="20" column="32" lean-forward="true" selection-end-line="62" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/ch/noseryoung/Calculator.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="92">
-                  <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/ch/noseryoung/Controller.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1058">
-                  <caret line="46" column="26" lean-forward="true" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="26" />
-                  <folding>
-                    <element signature="e#2826#2827#0" expanded="true" />
-                    <element signature="e#2872#2873#0" expanded="true" />
-                    <element signature="e#2921#2922#0" expanded="true" />
-                    <element signature="e#2965#2966#0" expanded="true" />
-                    <element signature="e#3002#3003#0" expanded="true" />
-                    <element signature="e#3034#3035#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/ch/noseryoung/ControllerTest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="322">
-                  <caret line="14" column="85" selection-start-line="14" selection-start-column="85" selection-end-line="14" selection-end-column="85" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/ch/noseryoung/Controller.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="140">
-                  <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-                  <folding>
-                    <element signature="e#2826#2827#0" expanded="true" />
-                    <element signature="e#2872#2873#0" expanded="true" />
-                    <element signature="e#2921#2922#0" expanded="true" />
-                    <element signature="e#2965#2966#0" expanded="true" />
-                    <element signature="e#3002#3003#0" expanded="true" />
-                    <element signature="e#3034#3035#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ch/noseryoung/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1587">
+              <caret line="69" column="43" selection-start-line="69" selection-start-column="43" selection-end-line="69" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ch/noseryoung/Trainer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="52" column="28" lean-forward="true" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="28" />
+              <folding>
+                <element signature="e#3515#3516#0" expanded="true" />
+                <element signature="e#3559#3560#0" expanded="true" />
+                <element signature="e#3704#3705#0" expanded="true" />
+                <element signature="e#3744#3745#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ch/noseryoung/Calculator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="412">
+              <caret line="67" column="9" lean-forward="true" selection-start-line="67" selection-start-column="9" selection-end-line="67" selection-end-column="9" />
+              <folding>
+                <element signature="e#2034#2035#0" expanded="true" />
+                <element signature="e#2074#2075#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ch/noseryoung/StopWatch.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="12" column="30" lean-forward="true" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ch/noseryoung/ControllerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="322">
+              <caret line="14" column="83" lean-forward="true" selection-start-line="14" selection-start-column="83" selection-end-line="14" selection-end-column="83" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ch/noseryoung/CalculatorTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="506">
+              <caret line="22" column="38" lean-forward="true" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ch/noseryoung/Controller.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-895">
+              <caret line="53" column="34" selection-start-line="53" selection-start-column="34" selection-end-line="53" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -130,23 +123,25 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/ch/noseryoung/IncompatibleSelectionException.java" />
-        <option value="$PROJECT_DIR$/src/ch/noseryoung/DivisionNotPossibleException.java" />
         <option value="$PROJECT_DIR$/src/ch/noseryoung/Claculator.java" />
-        <option value="$PROJECT_DIR$/src/ch/noseryoung/NoSuchValueException.java" />
         <option value="$PROJECT_DIR$/src/ch/noseryoung/Stopwatch.java" />
+        <option value="$PROJECT_DIR$/src/ch/noseryoung/TrainerTest.java" />
+        <option value="$PROJECT_DIR$/src/ch/noseryoung/ControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/ch/noseryoung/NoSuchValueException.java" />
+        <option value="$PROJECT_DIR$/src/ch/noseryoung/NoSuchAttributeException.java" />
+        <option value="$PROJECT_DIR$/src/ch/noseryoung/DivisionNotPossibleException.java" />
+        <option value="$PROJECT_DIR$/src/ch/noseryoung/UnallowedDivisionException.java" />
         <option value="$PROJECT_DIR$/src/ch/noseryoung/StopWatch.java" />
-        <option value="$PROJECT_DIR$/src/ch/noseryoung/Trainer.java" />
         <option value="$PROJECT_DIR$/src/ch/noseryoung/Main.java" />
+        <option value="$PROJECT_DIR$/src/ch/noseryoung/Controller.java" />
+        <option value="$PROJECT_DIR$/src/ch/noseryoung/Trainer.java" />
         <option value="$PROJECT_DIR$/src/ch/noseryoung/Calculator.java" />
         <option value="$PROJECT_DIR$/src/ch/noseryoung/CalculatorTest.java" />
-        <option value="$PROJECT_DIR$/src/ch/noseryoung/TrainerTest.java" />
-        <option value="$PROJECT_DIR$/src/ch/noseryoung/Controller.java" />
-        <option value="$PROJECT_DIR$/src/ch/noseryoung/ControllerTest.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1928" />
+    <option name="x" value="-3848" />
     <option name="y" value="-513" />
     <option name="width" value="1936" />
     <option name="height" value="1186" />
@@ -187,7 +182,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../jar_files/hamcrest-core-1.3.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -319,7 +314,9 @@
       <updated>1569931599264</updated>
       <workItem from="1569931600700" duration="1192000" />
       <workItem from="1570691934916" duration="15884000" />
-      <workItem from="1570714035421" duration="1752000" />
+      <workItem from="1570714035421" duration="2552000" />
+      <workItem from="1572350404196" duration="8240000" />
+      <workItem from="1572507207293" duration="7085000" />
     </task>
     <servers />
   </component>
@@ -336,15 +333,23 @@
     <history-entry file="CalculatorTest_testMultiply - 2019.10.10 at 15h 48m 49s.xml">
       <configuration name="CalculatorTest.testMultiply" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ControllerTest_testCheckCommand - 2019.10.10 at 15h 56m 35s.xml">
+      <configuration name="ControllerTest.testCheckCommand" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ControllerTest_testCheckCommand - 2019.10.10 at 15h 57m 56s.xml">
+      <configuration name="ControllerTest.testCheckCommand" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ControllerTest_testCheckCommand - 2019.10.10 at 15h 58m 07s.xml">
+      <configuration name="ControllerTest.testCheckCommand" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18828000" />
+    <option name="totallyTimeSpent" value="34953000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1928" y="-513" width="1936" height="1186" extended-state="6" />
-    <editor active="true" />
+    <frame x="-3848" y="-513" width="1936" height="1186" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.110341154" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17377399" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -353,7 +358,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.14995131" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.09152872" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.54819864" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -397,88 +402,73 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch/noseryoung/DivisionNotPossibleException.java">
+    <entry file="file://$PROJECT_DIR$/src/ch/noseryoung/TrainerTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/ch/noseryoung/NoSuchAttributeException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="57" selection-start-line="3" selection-start-column="57" selection-end-line="3" selection-end-column="57" />
+        <state relative-caret-position="46">
+          <caret line="2" column="37" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
           <folding>
-            <element signature="e#171#172#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch/noseryoung/NoSuchValueException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="49" selection-start-line="3" selection-start-column="49" selection-end-line="3" selection-end-column="49" />
-          <folding>
+            <element signature="e#125#126#0" expanded="true" />
             <element signature="e#155#156#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch/noseryoung/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/ch/noseryoung/UnallowedDivisionException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1012">
-          <caret line="44" column="30" lean-forward="true" selection-start-line="44" selection-start-column="30" selection-end-line="44" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch/noseryoung/StopWatch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+        <state relative-caret-position="46">
+          <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
           <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch/noseryoung/Calculator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch/noseryoung/TrainerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch/noseryoung/Trainer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch/noseryoung/CalculatorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="20" column="32" lean-forward="true" selection-end-line="62" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#141#142#0" expanded="true" />
+            <element signature="e#171#172#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ch/noseryoung/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1058">
-          <caret line="46" column="26" lean-forward="true" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="26" />
+        <state relative-caret-position="-895">
+          <caret line="53" column="34" selection-start-line="53" selection-start-column="34" selection-end-line="53" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch/noseryoung/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1587">
+          <caret line="69" column="43" selection-start-line="69" selection-start-column="43" selection-end-line="69" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch/noseryoung/Trainer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="52" column="28" lean-forward="true" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="28" />
           <folding>
-            <element signature="e#2826#2827#0" expanded="true" />
-            <element signature="e#2872#2873#0" expanded="true" />
-            <element signature="e#2921#2922#0" expanded="true" />
-            <element signature="e#2965#2966#0" expanded="true" />
-            <element signature="e#3002#3003#0" expanded="true" />
-            <element signature="e#3034#3035#0" expanded="true" />
+            <element signature="e#3515#3516#0" expanded="true" />
+            <element signature="e#3559#3560#0" expanded="true" />
+            <element signature="e#3704#3705#0" expanded="true" />
+            <element signature="e#3744#3745#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch/noseryoung/Calculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="67" column="9" lean-forward="true" selection-start-line="67" selection-start-column="9" selection-end-line="67" selection-end-column="9" />
+          <folding>
+            <element signature="e#2034#2035#0" expanded="true" />
+            <element signature="e#2074#2075#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch/noseryoung/StopWatch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="30" lean-forward="true" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -486,7 +476,17 @@
     <entry file="file://$PROJECT_DIR$/src/ch/noseryoung/ControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
-          <caret line="14" column="85" selection-start-line="14" selection-start-column="85" selection-end-line="14" selection-end-column="85" />
+          <caret line="14" column="83" lean-forward="true" selection-start-line="14" selection-start-column="83" selection-end-line="14" selection-end-column="83" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch/noseryoung/CalculatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="22" column="38" lean-forward="true" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

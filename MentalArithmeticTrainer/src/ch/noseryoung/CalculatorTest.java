@@ -6,8 +6,8 @@ import static org.junit.Assert.*;
 
 public class CalculatorTest extends Calculator{
 
-    int number1 = 3;
-    int number2 = 5;
+    private int number1 = 3;
+    private int number2 = 5;
 
     @Test
     public void testCalculate(){
@@ -17,10 +17,9 @@ public class CalculatorTest extends Calculator{
         int actualResult = 0;
         try{
             actualResult = calculate(number1, number2, operator);
-        }catch(DivisionNotPossibleException e){
+        }catch(UnallowedDivisionException e){
             e.printStackTrace();
         }
-
         assertEquals(expectedResult, actualResult);
     }
 
@@ -46,7 +45,7 @@ public class CalculatorTest extends Calculator{
         int actualResult = 0;
         try{
             actualResult = divide(number1,number2);
-        }catch(DivisionNotPossibleException e){
+        }catch(UnallowedDivisionException e){
             e.printStackTrace();
         }
         assertEquals(expectedResult,actualResult);

@@ -2,6 +2,12 @@ package ch.noseryoung;
 
 import java.util.Scanner;
 
+/**
+ * This program is to practice mental arithmetic it can give the user different exercises,
+ * stop the time the user needs to solve them and count how many were answered correctly
+ *
+ * @author Salome Treichler
+ */
 public class Main {
 
     public static void main(String[] args) {
@@ -26,6 +32,19 @@ public class Main {
             System.out.print("Selection: ");
             String modeSelection = scan.nextLine();
 
+            try {
+                controller.setAttribute(modeSelection, "mode", 1,5);
+            } catch (IncompatibleSelectionException e) {
+                System.err.println(e.getMessage());
+                repeat = true;
+            } catch (NoSuchAttributeException e){
+                e.printStackTrace();
+            }
+        } while (repeat);
+
+        do {
+            repeat = false;
+
             System.out.println("\nDifficulty:");
             System.out.println("----------------");
             System.out.println("1 Easy\n" +
@@ -35,18 +54,29 @@ public class Main {
             System.out.print("Selection: ");
             String difficultySelection = scan.nextLine();
 
-            System.out.print("\nAmount of Exercises: ");
+            try {
+                controller.setAttribute(difficultySelection, "difficulty", 1,4);
+            } catch (IncompatibleSelectionException e) {
+                System.err.println(e.getMessage());
+                repeat = true;
+            } catch (NoSuchAttributeException e){
+                e.printStackTrace();
+            }
+        } while (repeat);
+
+        do {
+            repeat = false;
+
+            System.out.print("\nAmount of exercises: ");
             String amountSelection = scan.nextLine();
 
             try {
-                controller.setValues(modeSelection, "mode", 1,5);
-                controller.setValues(difficultySelection, "difficulty", 1,4);
-                controller.setValues(amountSelection, "exerciseAmt", 1,100);
+                controller.setAttribute(amountSelection, "exerciseAmt", 1,100);
                 controller.openTrainer();
             } catch (IncompatibleSelectionException e) {
                 System.err.println(e.getMessage());
                 repeat = true;
-            } catch (NoSuchValueException e){
+            } catch (NoSuchAttributeException e){
                 e.printStackTrace();
             }
         } while (repeat);
